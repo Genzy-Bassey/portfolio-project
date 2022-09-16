@@ -1,0 +1,205 @@
+.project{
+    background: rgb(41 39 39);
+    padding: 4rem 1.5rem;
+    color:#fff;
+}
+.project h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.project span{
+    color: rgb(119, 178, 220);
+    font-size: 8rem;
+}
+.project-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.card{
+    flex-basis: 46%;
+}
+#tcc-img-card img{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+}
+#tcc-description{
+    padding-left: 3rem;
+}
+#tcc-description h2{
+    padding: 1rem 0rem;
+    font-size: 6rem;
+    font-weight: 500;
+    color: rgb(174, 180, 186);
+    font-family: sans-serif;
+}
+#tcc-description h3{
+    padding: 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: sans-serif;
+}
+#tcc-description p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    
+}
+#tcc-description a{
+    color: rgb(174, 180, 186);
+    font-size: 1.2rem;
+}
+#tcc-description a:hover{
+    color: rgb(41, 39, 39);
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 0.6rem;
+}
+@media screen and (max-width:768px){
+    .project-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #tcc-img-card img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #tcc-description{
+        padding: 1rem;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .project{
+        padding: 3rem 1rem;
+    }
+    .project h1{
+        font-size: 2.6rem;
+        margin-bottom: 4rem;
+    }
+    .project span{
+        color: rgb(119, 178, 220);
+        font-size: 6rem;
+    }
+    
+}
+
+
+.project-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem 0rem;
+}
+.card{
+    flex-basis: 46%;
+}
+#eesa-img-card{
+    padding-left: 5rem;
+    order: 2;
+}
+#eesa-img-card img{
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    right: 2rem;
+}
+#eesa-description{
+    padding-left: 3rem;
+    order: 1;
+}
+
+#eesa-description h2{
+    padding: 1rem 0rem;
+    font-size: 6rem;
+    font-weight: 500;
+    color: rgb(174, 180, 186);
+    font-family: sans-serif;
+}
+#eesa-description h3{
+    padding: 1rem 0rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: sans-serif;
+}
+#eesa-description p{
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    
+}
+#eesa-description a{
+    color: rgb(174, 180, 186);
+    font-size: 1.2rem;
+}
+#eesa-description a:hover{
+    color: rgb(41, 39, 39);
+    padding: 0.8rem;
+    background-color: #fff;
+    border-radius: 0.6rem;
+}
+
+@media screen and (max-width:768px){
+    .project-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #eesa-img-card{
+    padding-left: 0rem;
+    order: 1;
+}
+    #eesa-card-img img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #eesa-description{
+        padding: 1rem;
+        order: 2;
+    }
+    
+}
+
+/*===============toggle-button==============*/
+.toggle{
+    transition: all 0.3s ease-in-out;
+}
+.see-more{
+    text-align: center;
+    align-items: center;
+}
+.see-more .toggle-button{
+    width: 180px;
+    height: 65px;
+    margin: 4rem 0rem;
+    padding: 0.7rem;
+    background: rgb(119, 178, 220);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.see-more .toggle-button:hover{
+    background: #fff;
+    color: rgb(41, 39, 39);
+}
+@media screen and (max-width:400px){
+    .see-more .toggle-button{
+        width: 170px;
+        height: 60px;
+        margin: 2rem 0rem;
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+}
